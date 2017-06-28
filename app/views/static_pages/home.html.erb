@@ -1,6 +1,6 @@
-<% provide(:title, t('.title')) %>
-<h1><%=t('title_app')%></h1>
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
 <p>
   <%= t(".content", rort: link_to(t("link"),
-     "http://www.railstutorial.org/")).html_safe %>
+    "http://www.railstutorial.org/")).html_safe %>
 </p>
