@@ -20,7 +20,7 @@ NotUseDefaultRouteCheck: { }
 NotUseTimeAgoInWordsCheck: { }
 OveruseRouteCustomizationsCheck: { customize_count: 3 }
 ProtectMassAssignmentCheck: { }
-RemoveEmptyHelpersCheck: { }
+RemoveEmptyHelpersCheck: { ignored_files: 'static_pages_helper.rb' }
 #RemoveTabCheck: { }
 RemoveTrailingWhitespaceCheck: { }
 RemoveUnusedMethodsInControllersCheck: { except_methods: [] }
