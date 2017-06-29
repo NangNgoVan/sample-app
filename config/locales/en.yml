@@ -1,10 +1,12 @@
 
 en:
-  link: "http://www.railstutorial.org/"
+  link: "Ruby on Rails Tutorial"
+  link_author: "Michael Harlt"
   title_app: "Sample App"
+  sign_up_now: "Sign up now!"
   static_pages:
     home:
-      title: "Home"
+      title: "Welcome to the Sample App"
       content: "This is the home page for the %{rort} sample application."
     help:
       title: "Help"
@@ -15,3 +17,16 @@ en:
       content: "The <em>%{link_book}</em> is a %{book} and
       %{link_screencast} to teach web development with %{link_ror}.
       This is the sample application for the tutorial."
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      signup: "Signup"
+    footer:
+      about: "About"
+      contact: "Contact"
+      info: "The %{link} by %{link_author}"
+  users:
+    new:
+      title: "Sign Up"
+      content: "This will be a signup page for new users."

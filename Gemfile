@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 gem "rails", "~> 5.0.4"
+gem "bootstrap-sass", "3.3.7"
 gem "sqlite3"
 gem "rubocop", require: false
 gem "rubocop-checkstyle_formatter", require: false
