@@ -3,13 +3,21 @@ scss_files: 'app/assets/stylesheets/**/*.css.scss'
 exclude: 'app/assets/stylesheets/application.css'
 
 linters:
+  SelectorFormat:
+      ignored_names: ['debug_dump', 'field_with_errors']
+
   BorderZero:
+    enabled: false
+
+  PlaceholderInExtend:
     enabled: false
 
   Indentation:
     exclude:
       - 'path/to/file.scss'
       - 'path/to/directory/**'
+
     severity: warning
+
     width: 2
 
