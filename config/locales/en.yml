@@ -6,6 +6,8 @@ en:
   sign_up_now: "Sign up now!"
   welcome: "Welcome to the Sample App!"
   user_not_found: "User not found"
+  log_in: "Log in"
+  invalid_email_password: Invalid email/password combination
   static_pages:
     home:
       title: "Welcome to the Sample App"
@@ -23,7 +25,12 @@ en:
     header:
       home: "Home"
       help: "Help"
+      account: "Account"
       signup: "Signup"
+      setting: "Setting"
+      profile: "Profile"
+      log_out: "Log out"
+      users: "Users"
     footer:
       about: "About"
       contact: "Contact"
@@ -37,4 +44,8 @@ en:
   shared:
     error_messages:
       content: "The form content %{count}."
+  sessions:
+    new:
+      title: "Login"
+      content: "New users ? %{sign_up_now}"
 

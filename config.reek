@@ -4,3 +4,5 @@ FeatureEnvy:
   enabled: false
 InstanceVariableAssumption:
   enabled: false
+DuplicateMethodCall:
+  enabled: false
