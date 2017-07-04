@@ -7,6 +7,7 @@ en:
   welcome: "Welcome to the Sample App!"
   user_not_found: "User not found"
   log_in: "Log in"
+  remember_me: "Remember me on this computer"
   invalid_email_password: Invalid email/password combination
   static_pages:
     home:
@@ -48,4 +49,3 @@ en:
     new:
       title: "Login"
       content: "New users ? %{sign_up_now}"
-

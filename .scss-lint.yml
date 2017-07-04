@@ -4,7 +4,7 @@ exclude: 'app/assets/stylesheets/application.css'
 
 linters:
   SelectorFormat:
-      ignored_names: ['debug_dump', 'field_with_errors']
+      ignored_names: ['debug_dump', 'field_with_errors', 'session_remember_me']
 
   BorderZero:
     enabled: false

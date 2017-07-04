@@ -6,3 +6,10 @@ InstanceVariableAssumption:
   enabled: false
 DuplicateMethodCall:
   enabled: false
+Attribute:
+  enabled: false
+TooManyStatements:
+  enabled: true
+  exclude:
+  - initialize
+  max_statements: 7
