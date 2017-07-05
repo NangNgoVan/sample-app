@@ -15,6 +15,8 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  validates :password, presence: true, length: {minimum: 6}, allow_nil: true
+
   def email_downcase
     email.downcase!
   end
@@ -30,7 +32,8 @@ class User < ApplicationRecord
 
   def authenticated? remember_token
     return false if remember_digest.blank?
-    BCrypt::Password.new(remember_digest).is_password?(remember_token)
+
+    BCrypt::Password.new(remember_digest).is_password? remember_token
   end
 
   def self.digest string
