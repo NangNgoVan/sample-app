@@ -9,6 +9,13 @@ en:
   log_in: "Log in"
   remember_me: "Remember me on this computer"
   invalid_email_password: Invalid email/password combination
+  confirmation: "Confirmation"
+  update_success: "Profile update success!"
+  you_sure: "You sure?"
+  remember_me: "Remember me on this computer"
+  user_deleted: "User deleted!"
+  please_login: "Please log in."
+  you_sure: "You sure?"
   static_pages:
     home:
       title: "Welcome to the Sample App"
@@ -28,7 +35,7 @@ en:
       help: "Help"
       account: "Account"
       signup: "Signup"
-      setting: "Setting"
+      settings: "Settings"
       profile: "Profile"
       log_out: "Log out"
       users: "Users"
@@ -42,6 +49,12 @@ en:
       create_my_account: "Create my account"
       content: "This will be a signup page for new users."
       confirmation: "Confirmation"
+    edit:
+      title: "Edit page"
+      content: "Edit content"
+      save_change: "Save change"
+    index:
+      title: "All users"
   shared:
     error_messages:
       content: "The form content %{count}."
