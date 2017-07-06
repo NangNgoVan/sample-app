@@ -16,6 +16,14 @@ en:
   user_deleted: "User deleted!"
   please_login: "Please log in."
   you_sure: "You sure?"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  check_activated_error: "Account not activated.
+    Check your email for the activation link."
+  check_you_email: "Please check your email to active your account!"
+  account_activation: "Account activation"
+  mail_content: "Welcome to the Sample App!
+    Click on the link below to activate your account:"
   static_pages:
     home:
       title: "Welcome to the Sample App"
