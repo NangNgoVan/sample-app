@@ -13,3 +13,5 @@ TooManyStatements:
   exclude:
   - initialize
   max_statements: 7
+TooManyMethods:
+  max_methods: 20
