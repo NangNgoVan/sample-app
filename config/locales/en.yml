@@ -12,6 +12,7 @@ en:
   confirmation: "Confirmation"
   update_success: "Profile update success!"
   you_sure: "You sure?"
+  activate: "Activate"
   remember_me: "Remember me on this computer"
   user_deleted: "User deleted!"
   please_login: "Please log in."
@@ -36,6 +37,8 @@ en:
   password_reset: "Password reset"
   update_password: "Update password"
   password_reset_expried: "Password reset has expired."
+  image_max_size: "Maximum file size is 5MB. Please choose a smaller file."
+  micropost_feed: "Micropost Feed"
   static_pages:
     home:
       title: "Welcome to the Sample App"
