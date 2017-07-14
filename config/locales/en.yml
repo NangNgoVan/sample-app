@@ -46,6 +46,12 @@ en:
   compose_micropost: "Compose new micropost..."
   micropost_created: "Micropost created!"
   micropost_deleted: "Micropost deleted"
+  microposts: "Microposts"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  followers: "Followers"
+  following: "Following"
+  view_my_profile: "View my profile"
   static_pages:
     home:
       title: "Welcome to the Sample App"
