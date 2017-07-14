@@ -44,6 +44,8 @@ en:
   delete: "Delete"
   view_my_profile: "View my profile"
   compose_micropost: "Compose new micropost..."
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
   static_pages:
     home:
       title: "Welcome to the Sample App"
