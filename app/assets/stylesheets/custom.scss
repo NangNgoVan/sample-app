@@ -221,6 +221,10 @@ input {
   list-style: none;
   margin: 0;
 
+  .follow {
+    padding: 0;
+  }
+
   li {
     border-bottom: 1px solid $gray-lighter;
     overflow: auto;
@@ -275,5 +279,18 @@ span {
     input {
       border: 0;
     }
+  }
+}
+
+.user-avatars {
+  margin-top: 10px;
+  overflow: auto;
+
+  .gravatar {
+    margin: 1px;
+  }
+
+  a {
+    padding: 0;
   }
 }
